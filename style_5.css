@@ -1,0 +1,183 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+*,*:before,*:after{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family: inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+
+body{
+    background: #e8e8e8 url("../img/bg.png") 50% 130px no-repeat;
+}
+.content {
+    padding: 168px 0 137px 0;
+    max-width: 841px;
+    margin: 0px auto;
+}
+
+.content-top {
+    text-align: center;
+    margin: 0 0 65px 0;
+}
+.content-top__category {
+    opacity: 0.6;
+    color: #273d46;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    letter-spacing: normal;
+    text-transform: uppercase;
+    font-style: normal;
+    letter-spacing: 2.8px;
+    line-height: normal;
+    margin: 0 0 15px 0;
+}
+.content-top__title {
+    color: #273d46;
+    font-size: 36px;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 50px;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    max-width: 725px;
+    margin: 0px auto;
+}
+
+.content__image {
+    box-shadow: 0 15px 65px rgba(15, 16, 16, 0.15);
+    background-color: #fff;
+    padding: 10px;
+    margin: 0px 0px 85px 0px;
+}
+.content-image__item img{
+    max-width: 100%;
+}
+
+.content-bottom {
+    padding: 0 45px;
+}
+
+.content-bottom__text {
+    color: #53646b;
+    font-size: 24px;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 40px;
+    text-align: left;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    margin: 0px 0px 48px 0px;
+}
+.content-bottom__text p{
+    margin: 0px 0px 40px 0px;
+}
+.content-bottom__text p:last-child{
+    margin: 0;
+}
+
+.content-bottom-info {}
+.content-bottom-info-list {
+    margin: 0px 0px 59px 0px;
+}
+.content-bottom-info-list li{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 20px;
+    letter-spacing: normal;
+    text-align: left;
+    margin: 0px 0px 15px 0px;
+    background: url('../img/Icons/check.png') left no-repeat;
+    padding: 0px 0px 0px 35px;
+}
+.content-bottom-info-list li:last-child{
+    margin: 0;
+}
+.content-bottom-info-list li:nth-child(1){
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.3);
+    color: #273d46;
+    font-style: normal;
+    font-style: normal;
+    line-height: normal;
+}
+.content-bottom-info-list li:nth-child(2){
+    color: #80b7b3;
+    font-style: italic;
+    font-style: normal;
+    line-height: normal;
+}
+.content-bottom-info-list li:nth-child(3){
+    color: #273d46;
+    font-weight: bold;
+    font-style: normal;
+    font-style: normal;
+    line-height: normal;
+}
+.content-bottom-info-list li:nth-child(4){
+    color: #273d46;
+    font-style: normal;
+    text-decoration: line-through;
+    font-style: normal;
+    line-height: normal;
+}
+.content-bottom-info-list li:nth-child(4) span{
+    opacity: 0.3;
+}
+
+.content-bottom-info__link {
+    height: 44px;
+    display: inline-block;
+    line-height: 44px;
+    border-radius: 24px;
+    padding: 0px 30px;
+    background-color: #80b7b3;
+    -webkit-box-shadow: 0px 5px 1px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 5px 1px rgba(0, 0, 0, 0.5);
+    color: #ffffff;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2.8px;
+}
+.content-bottom-info__link span{
+    padding: 0px 30px 0px 0px;
+    background: url("../img/Icons/Arrow.svg") right no-repeat;
+}
+.content-bottom-info__link:hover{
+    background: #511e23;
+}
+.content-bottom-info__link:active{
+    position: relative;
+    top: 3px;
+    -webkit-box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.5);
+}
