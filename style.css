@@ -35,7 +35,7 @@ img{vertical-align: top;}
 h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 
 body{
-    background: #e8e8e8 url("../img/bg.png") 50% 130px no-repeat;
+    background: #e8e8e8 url("img/bg.png") 50% 130px no-repeat;
 }
 .content {
     padding: 168px 0 137px 0;
@@ -116,7 +116,7 @@ body{
     letter-spacing: normal;
     text-align: left;
     margin: 0px 0px 15px 0px;
-    background: url('../img/Icons/check.png') left no-repeat;
+    background: url('img/icons/check.png') left no-repeat;
     padding: 0px 0px 0px 35px;
 }
 .content-bottom-info-list li:last-child{
@@ -170,7 +170,7 @@ body{
 }
 .content-bottom-info__link span{
     padding: 0px 30px 0px 0px;
-    background: url("../img/Icons/Arrow.svg") right no-repeat;
+    background: url("img/icons/arrow.svg") right no-repeat;
 }
 .content-bottom-info__link:hover{
     background: #511e23;
